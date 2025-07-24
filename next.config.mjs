@@ -9,12 +9,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: "standalone",
   webpack: (config) => {
     config.module.rules.push({
       test: /\.sql$/,
       use: "raw-loader",
     });
-
     return config;
   },
 };
