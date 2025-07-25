@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "A shadcn/ui powered block you can install in your own project to manage a Supabase organization.",
   generator: "supabase.com",
+  icons: [{ rel: "icon", url: "/favicon.ico" }, { rel: "apple-touch-icon", url: "/favicon.ico" }]
 };
 
 export default function RootLayout({
