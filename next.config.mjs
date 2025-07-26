@@ -9,9 +9,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
-  },
   output: "standalone",
   webpack: (config) => {
     config.module.rules.push({
